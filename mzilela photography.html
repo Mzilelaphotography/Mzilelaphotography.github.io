@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MZILELA PHOTOGRAPHY</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #212121;
+            color: #fff;
+        }
+        .header, .footer {
+            background-color: #dead19;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+        }
+        .nav-items a {
+            margin: 0 15px;
+            color: #212121;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .main {
+            padding: 20px;
+        }
+        .hero {
+            background-image: url('your-image.jpg'); /* Replace with the actual image path */
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+            font-weight: bold;
+        }
+        .portfolio {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .portfolio img {
+            width: 20%;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .contact-info {
+            background-color: #222;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+        @media (max-width: 600px) {
+            .nav-items a {
+                display: block;
+                margin: 10px 0;
+            }
+            .portfolio img {
+                width: 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>MZILELA PHOTOGRAPHY</h1>
+        <nav class="nav-items">
+            <a href="#">Home</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>W E C A P T U R E I T A L L</h1>
+    </section>
+    <main class="main">
+        <h2>Portfolio</h2>
+        <div class="portfolio">
+            <img src="photo1.jpg" alt="Sample Photo 1">
+            <img src="photo2.jpg" alt="Sample Photo 2">
+            <img src="photo3.jpg" alt="Sample Photo 3">
+            <img src="photo4.jpg" alt="Sample Photo 4">
+        </div>
+        <section class="contact-info">
+            <h3>Contact Information</h3>
+            <p>Email: mzilelaphotography01@gmail.com</p>
+            <p>Phone: 0722930024</p>
+            <p>WhatsApp: 0722930024</p>
+            <p>Address: Makhushani Raylaan Drive 1, Phalaborwa, South Africa</p>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>© 2024 Mzilela Photography</p>
+    </footer>
+</body>
+</html>
